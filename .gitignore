@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+.vscode
+.idea
+thumbs.db
+desktop.ini
+build
+release
+package-lock.json

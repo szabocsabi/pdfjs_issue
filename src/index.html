@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>PDFJS repro</title>
+
+  <meta name="theme-color" content="#e80b0b" />
+  
+  <script src="libs/requirejs/require.js"></script>
+  <script src="require.config.js"></script>
+
+  <script>
+    require(['app'], function (app) {
+      new app.App();
+    });
+  </script>
+
+</head>
+
+<body>
+  <div data-bind="ojModule: router.moduleConfig"></div>
+</body>
+
+</html>
